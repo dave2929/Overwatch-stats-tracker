@@ -31,7 +31,7 @@ if (process.env.NODE_ENV === "production") {
   app.get(/.*/, (req, res) => res.sendFile(__dirname + "/public/index.html"));
 }
 
-app.listen(5000, () => {
+app.listen(port, () => {
   console.log(
     `Server running in ${process.env.NODE_ENV} mode on port ${port}!`
   );
