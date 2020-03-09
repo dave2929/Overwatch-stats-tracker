@@ -44,3 +44,8 @@
 ::ffff:127.0.0.1 - GET /api/v1/profile/psn/1 HTTP/1.1 404 31 - 745.671 ms
 ::ffff:127.0.0.1 - GET /api/v1/profile/psn/1 HTTP/1.1 404 31 - 561.036 ms
 ::ffff:127.0.0.1 - GET /api/v1/profile/psn/1 HTTP/1.1 404 31 - 169.878 ms
+::ffff:127.0.0.1 - GET /api/v1/profile/xbl/Denvyy HTTP/1.1 200 16968 - 202.223 ms
+::ffff:127.0.0.1 - GET /api/v1/profile/xbl/Denvyy HTTP/1.1 200 16955 - 1132.909 ms
+::ffff:127.0.0.1 - GET /api/v1/profile/xbl/Denvyy HTTP/1.1 304 - - 189.188 ms
+::ffff:127.0.0.1 - GET /api/v1/profile/xbl/Denvyy HTTP/1.1 304 - - 154.715 ms
+::ffff:127.0.0.1 - GET /api/v1/profile/xbl/Denvyy HTTP/1.1 304 - - 132.623 ms
