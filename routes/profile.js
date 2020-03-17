@@ -7,8 +7,12 @@ router.get("/:platform/:gamertag", async (req, res) => {
     const headers = {
       "TRN-Api-Key": process.env.TRACKER_API_KEY
     };
-    const { platform, gamertag } = req.params;
-
+    var { platform, gamertag } = req.params;
+    if (gamertag.includes("#")) {
+      gamertag = gamertag.replace("#", "%23");
+      console.log("12");
+    }
+    console.log(gamertag);
     const response = await fetch(
       `${process.env.TRACKER_API_URL}/profile/${platform}/${gamertag}`,
       { headers }

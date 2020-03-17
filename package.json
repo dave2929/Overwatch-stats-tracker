@@ -1,7 +1,7 @@
 {
-  "name": "apex-tracker",
+  "name": "overwatch-tracker",
   "version": "1.0.0",
-  "description": "Track stats for Apex Legends",
+  "description": "Track stats for Overwatch",
   "main": "server.js",
   "scripts": {
     "start": "node server",
